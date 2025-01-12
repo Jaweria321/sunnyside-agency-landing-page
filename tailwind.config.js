@@ -31,6 +31,12 @@ export default {
         500: 'hsl(212, 27%, 19%)',
       } , 
     },
+    screens: {
+      'max-tablet': { max: '1199px' },
+      'tablet': {max: '991px'},
+      'md': {max: '768px'},
+      'sm' : {max: '575px'}
+    }
   },
   plugins: [],
 }
