@@ -34,11 +34,11 @@ function Services() {
         </div>
       </div>
       <div className='flex justify-center items-center md:flex-col'>
-        <div className='w-1/2 h-[600px] bg-[url("public/desktop/image-graphic-design.jpg")] md:bg-[url("public/mobile/image-graphic-design.jpg")] bg-cover bg-center flex flex-col justify-end items-center text-center md:w-full'>
+        <div className='w-1/2 h-[600px] bg-[url("/desktop/image-graphic-design.jpg")] md:bg-[url("/mobile/image-graphic-design.jpg")] bg-cover bg-center flex flex-col justify-end items-center text-center md:w-full'>
           <h2 className='text-[30px] font-Fraunces font-black leading-[40px] w-[330px] text-cyan-100 md:w-[270px]'>Graphic design</h2>
           <p className='text-[18px] font-semibold text-cyan-100 mt-7 mb-10 w-[330px] md:mb-[60px] md:w-[270px]'>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.</p>
         </div>
-        <div className='w-1/2 h-[600px] bg-[url("public/desktop/image-photography.jpg")]  md:bg-[url("public/mobile/image-photography.jpg")] bg-cover bg-center flex flex-col justify-end items-center text-center md:w-full'>
+        <div className='w-1/2 h-[600px] bg-[url("/desktop/image-photography.jpg")]  md:bg-[url("/mobile/image-photography.jpg")] bg-cover bg-center flex flex-col justify-end items-center text-center md:w-full'>
           <h2 className='text-[30px] font-Fraunces font-black leading-[40px] w-[330px] md:w-[270px] text-blue-400'>Photography</h2>
           <p className='text-[18px] font-semibold text-blue-400 mt-7 mb-10 w-[330px] md:mb-[60px] md:w-[270px]'>  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
         </div>
