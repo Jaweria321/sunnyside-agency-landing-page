@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function Header() {
   const [isOpen, setIsOpen]  = useState(false)
   return (
-    <div className='bg-[url("public/desktop/image-header.jpg")] bg-cover bg-center h-screen w-full md:bg-[url("public/mobile/image-header.jpg")]'>
+    <div className='bg-[url("desktop/image-header.jpg")] bg-cover bg-center h-screen w-full md:bg-[url("public/mobile/image-header.jpg")]'>
       <div className='max-w-[1300px] mx-auto p-[30px] flex justify-between items-center relative'>
         <img src="logo.svg" alt="" />
         <div className='flex items-center md:hidden'>
